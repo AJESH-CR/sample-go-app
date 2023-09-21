@@ -1,0 +1,22 @@
+{
+    "appId": 1,
+    "levels": [
+        {
+            "level": 1,
+            "approvers": [
+                1,
+                2
+            ],
+            "cond": "AND"
+        },
+        {
+            "level": 2,
+            "approvers": [
+                3,
+                4,
+                5
+            ],
+            "cond": "OR"
+        }
+    ]
+}
